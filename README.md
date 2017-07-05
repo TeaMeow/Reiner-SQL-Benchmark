@@ -1,4 +1,4 @@
-# Reiner-SQL-Brenchmark
+# Reiner-SQL-Benchmark
 
 ```
 Yamide-MacBook-Air-2:Reiner-SQL-Brenchmark YamiOdymel$ go test -bench=. -benchmem
