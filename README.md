@@ -1,5 +1,16 @@
 # Reiner-SQL-Benchmark
 
+這份測試是基於下列電腦所執行的。
+
+```
+MacBook Air 13" (Mid-2013)
+1.7 GHz Intel Core i7 (4650U)
+8 GB 1600 MHz DDR3
+Intel HD Graphics 5000 1536 MB
+```
+
+測試結果如下。
+
 ```
 Yamide-MacBook-Air-2:Reiner-SQL-Brenchmark YamiOdymel$ go test -bench=. -benchmem
 BenchmarkReinerInsert-4             3000            571298 ns/op            1719 B/op         49 allocs/op
